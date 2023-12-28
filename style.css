@@ -125,6 +125,57 @@ small {
 /* product */
 
 .product {
+  /* display: flex; */
+  /* gap: 32px; */
+  margin-top: 32px;
+}
+
+/* .product div {
+  flex: 1;
+} */
+
+.product p {
+  display: flex;
+  margin-top: 16px;
+}
+
+.product button {
+  margin-top: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  /* display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 30px;
+  /* color: tomato; */
+  border: 3px solid ;
+  border-radius: 30px;
+  transition: all 0.2s;
+  background-color: p;
+} 
+
+.button:hover {
+  transform: scale(1.12);
+}
+
+.product img{
+  width: 100%;
+  height: auto;
+  border-radius: 30%;
+}
+
+.title{
+  /* background-color: aqua; */
+  vertical-align: bottom;
+  border-radius: 0%;
+}
+
+@media (min-width: 600px){
+  /* product */
+
+.product {
   display: flex;
   gap: 32px;
   margin-top: 32px;
@@ -164,9 +215,4 @@ small {
   height: auto;
   border-radius: 30%;
 }
-
-.title{
-  /* background-color: aqua; */
-  vertical-align: bottom;
-  border-radius: 0%;
 }
